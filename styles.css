@@ -74,3 +74,32 @@ header {
 .hero-content h2 {
     color: rgb(51, 144, 220);
 }
+
+#skill {
+    display: flex;
+    border: 1px solid rgb(192, 192, 192);
+  }
+  
+  .skill-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .webskill {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .mlskill {
+    width: 45%;
+    text-align: right;
+    margin-left: 10%;
+  }
+
+.skill-content h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(131, 184, 227);
+    margin-bottom: 20px;
+}

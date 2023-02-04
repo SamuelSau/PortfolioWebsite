@@ -1,8 +1,7 @@
 // Get the About link element
-var aboutLink = document.querySelector("a[href='#about']");
-
+let aboutLink = document.querySelector("a[href='#about']");
 // Get the hero section element
-var heroSection = document.getElementById("hero");
+let heroSection = document.getElementById("hero");
 
 // Attach a click event listener to the About link
 aboutLink.addEventListener("click", function(event) {
@@ -10,11 +9,24 @@ aboutLink.addEventListener("click", function(event) {
   event.preventDefault();
 
   // Get the top offset of the hero section
-  var heroSectionTop = heroSection.offsetTop;
+  let heroSectionTop = heroSection.offsetTop;
 
   // Scroll the page to the hero section over 600ms
   window.scroll({
     top: heroSectionTop,
+    left: 0,
+    behavior: "smooth"
+  });
+});
+
+//do same thing with skill section
+let skillLink = document.querySelector("a[href='#skills']");
+let skillSection = document.getElementById("skill");
+skillLink.addEventListener("click", function(event) {
+  event.preventDefault();
+  let skillSectionTop = skillSection.offsetTop;
+  window.scroll({
+    top: skillSectionTop,
     left: 0,
     behavior: "smooth"
   });
