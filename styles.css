@@ -103,3 +103,45 @@ header {
     color: rgb(131, 184, 227);
     margin-bottom: 20px;
 }
+
+.container h1 {
+  text-align: center;
+  color:rgb(0, 140, 255);
+  font-size: 50px;
+}
+
+#project .project_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#project .project__item {
+  width: 30%;
+  height: 300px;
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  padding:4px;
+}
+
+#project .project__item img {
+  width: 250px;
+  height: 250px;
+  border-radius: 1rem;
+}
+
+#project .project__item h3 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+#project .project__item p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: gray;
+}

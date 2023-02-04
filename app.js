@@ -31,3 +31,16 @@ skillLink.addEventListener("click", function(event) {
     behavior: "smooth"
   });
 });
+
+//do same thing with project section
+let projectLink = document.querySelector("a[href='#projects']");
+let projectSection = document.getElementById("project");
+projectLink.addEventListener("click", function(event) {
+  event.preventDefault();
+  let projectSectionTop = projectSection.offsetTop;
+  window.scroll({
+    top: projectSectionTop,
+    left: 0,
+    behavior: "smooth"
+  });
+});
