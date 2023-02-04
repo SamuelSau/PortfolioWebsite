@@ -1,5 +1,4 @@
 header {
-    background-color: lightgray;
     padding: 20px;
   }
   
@@ -14,29 +13,44 @@ header {
   nav li {
     display: inline-block;
     margin-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight:900px;
+    font-size:20px;
   }
   
   nav a {
     color: black;
     text-decoration: none;
+    
   }
   
   nav a:hover {
-    color: white;
+    color: blue;
+    
+  }
+
+  nav a:visited {
+    color: rgb(147, 0, 227);
   }
 
   #hero {
     background-image: url(SamuelSau.png);
+    background-size: contain;
     background-size: cover;
     background-position: center;
     height: 500px;
+    max-width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 4rem auto;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
   }
   
   .hero-content {
     text-align: center;
     color: white;
+
   }
   
