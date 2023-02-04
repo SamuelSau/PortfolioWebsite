@@ -1,25 +1,32 @@
+html {
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+}
+
 header {
-    padding: 20px;
-  }
+    padding: 30px 50px 30px 50px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    
+}
   
   nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   nav li {
     display: inline-block;
     margin-right: 20px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-weight:900px;
+    font-weight:bolder;
     font-size:20px;
   }
   
   nav a {
-    color: black;
+    color: rgb(162, 162, 162);
     text-decoration: none;
     
   }
@@ -28,29 +35,42 @@ header {
     color: blue;
     
   }
-
   nav a:visited {
-    color: rgb(147, 0, 227);
+    color: rgb(51, 144, 220);
+    
   }
 
   #hero {
     background-image: url(SamuelSau.png);
-    background-size: contain;
     background-size: cover;
     background-position: center;
     height: 500px;
     max-width: 600px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 4rem auto;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    margin: 6rem auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
   }
-  
-  .hero-content {
-    text-align: center;
-    color: white;
 
+  #hero p {
+    background-image: url(usflogo.png);
+    background-size: cover;
+    background-position: center;
+    margin-top:140px;
+    height: 50px;
+    max-width: 50px;
+    z-index: 999;
   }
-  
+
+
+.hero-content {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4rem 3rem 4rem 3rem;
+  }
+
+.hero-content h2 {
+    color: rgb(51, 144, 220);
+}
